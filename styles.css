@@ -1,18 +1,44 @@
 body {
-    background-color: #1e1e1e;
-    color: #00ff00;
-    font-family: 'Courier New', Courier, monospace;
-    padding: 20px;
+  background-color: #1e1e1e;
+  color: #00ff00;
+  font-family: "Courier New", Courier, monospace;
+  padding: 20px;
 }
 
 .console {
-    background-color: #1e1e1e;
-    border: 1px solid #333;
-    border-radius: 5px;
-    padding: 20px;
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding: 20px;
 }
 
-.console p {
-    margin: 0;
-    white-space: pre;
+.console > p {
+  margin: 0;
+  white-space: pre;
+}
+
+.panel {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.panel > select {
+  font-size: 20px;
+  background-color: #1e1e1e;
+  color: white;
+  font-weight: 900;
+  border-radius: 30px;
+  text-align: center;
+}
+.panel > button {
+  font-size: 20px;
+  background-color: #1e1e1e;
+  color: white;
+  font-weight: 900;
+  border-radius: 30px;
+  text-align: center;
 }
